@@ -1,4 +1,4 @@
- var BaseUrl = "https://3fr5xd.sharepoint.com/sites/Success_Point/";
+ var BaseUrl = "https://domain/sites/Success_Point/";
     var listName = "JSOM";
     function getWebProperties() {
     try{
