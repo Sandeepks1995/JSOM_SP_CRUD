@@ -1,0 +1,64 @@
+<!-- Include reference to the SharePoint JavaScript library -->
+<script src="/_layouts/15/MicrosoftAjax.js" type="text/javascript"></script>
+<script src="/_layouts/15/sp.runtime.js" type="text/javascript"></script>
+<script src="/_layouts/15/sp.js" type="text/javascript"></script>
+<h1>JSOM Sample APP</h1>
+    <h2>Web Properties</h2>
+    <input type="button" title="Show" onclick="getWebProperties();" name="Show" value="Show Web Properties" />
+
+    <h2>Fetch List Item</h2>
+    <input type="button" title="Show" onclick="retrieveListItems();" name="Show" value="Show" />
+    <ul id="tasksUL"></ul>
+
+    <h2>New List Item</h2>
+    Title: <input type="text" id="_Title" name="_Title" />
+    City: <input type="text" id="_City" name="_City" />
+    Department: <input type="text" id="_Dept" name="_Dept" />
+    <input type="button" id="_Save" title="Show" name="Save" value="Save" onclick="createListItem();" />
+
+    <h2>Update List Item</h2>
+    ID: <input type="text" id="_TextID" name="_TextID" />
+    Title: <input type="text" id="_TextTitle" name="_TextTitle" />
+    <input type="button" id="_Update" title="_Update" name="_Update" value="Update" onclick="updateListItem()" />
+
+    <h2>Delete List Item</h2>
+    ID: <input type="text" id="_TextDeleteID" name="_Title" />
+    <input type="button" id="_Delete" title="_Delete" name="_Delete" value="Delete" onclick="deleteListItem();" />
+
+<script src="https://3fr5xd.sharepoint.com/sites/Success_Point/_layouts/15/sp.js" type="text/javascript"></script> 
+<script src="https://3fr5xd.sharepoint.com/sites/Success_Point/SiteAssets/JSOM%20Prototype/JSOMAPP.js" type="text/javascript"></script>  
+
+
+
+
+<!-- <script src="/_layouts/15/MicrosoftAjax.js" type="text/javascript"></script>
+<script src="/_layouts/15/sp.runtime.js" type="text/javascript"></script>
+<script src="/_layouts/15/sp.js" type="text/javascript"></script> -->
+
+<!-- <h1>JSOM Sample APP</h1>
+<h2>Web Properties</h2>
+<input type="button" title="Show" onclick="ExecuteOrDelayUntilScriptLoaded(getWebProperties,'SP.js');" name="Show" value="Show Web Properties" />
+<h2>Fatch List Item</h2>
+<input type="button" title="Show" onclick="retrieveListItems();" name="Show" value="Show" />
+<ul id="tasksUL"/>
+
+
+
+
+<h2>New List Item</h2>
+
+Title :<input type="text" id="_Title" name="_Title" />
+<input type="button" id="_Save" title="Show"  name="Save" value="Save" onclick="createListItem();" />
+
+<h2>Update List Item</h2>
+ID : <input type="text" id="_TextID" name="_TextID" />
+Title :<input type="text" id="_TextTitle" name="_TextTitle" />
+
+<input type="button" id="_Update" title="_Update"  name="_Update" value="Update" onclick="updateListItem()" />
+
+<h2>Delete List Item</h2>
+ID :<input type="text" id="_TextDeleteID" name="_Title" />
+<input type="button" id="_Delete" title="_Delete"  name="_Delete" value="Delete" onclick="deleteListItem();" />
+
+<script src="https://3fr5xd.sharepoint.com/sites/Success_Point/_layouts/15/sp.js" type="text/javascript"></script> 
+<script src="https://sharepointiq.sharepoint.com/sites/Dev/SiteAssets/JSOMAPP/JSOMAPP.js" type="text/javascript" ></script> -->
